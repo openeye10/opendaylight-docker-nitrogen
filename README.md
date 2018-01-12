@@ -19,7 +19,7 @@ Containerized OpenDaylight SDN Controller - Nitrogen Release
 ## How To Use It?
 
 ### Run Container
-`docker run -d -p 8181:8181 -p 8101:8101 --name=opendaylight techmocha/opendaylight-nitrogen`
+`docker run -d -p 8181:8181 -p 8101:8101 --name=opendaylight techmocha/opendaylight-docker-nitrogen`
 
 ### Access OpenDaylight Karaf CLI
 `ssh -p 8101 karaf@localhost` (If accessing Karaf CLI directly from local machine)
