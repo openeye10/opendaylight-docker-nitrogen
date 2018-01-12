@@ -26,5 +26,7 @@ Containerized OpenDaylight SDN Controller - Nitrogen Release
 
 `ssh -p 8101 karaf@<SERVER_IP>` (If accessing Karaf CLI from remote machine)
 
+(NOTE: Default username/password for ODL Karaf CLI is "karaf"/"karaf")
+
 ### Access OpenDaylight DLUX Web UI
 `http://<SERVER_IP>:8181/index.html`
